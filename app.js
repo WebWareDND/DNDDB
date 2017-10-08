@@ -4,16 +4,27 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var session = require('express-session');
+var mongoose = require('mongoose');
+
 
 var index = require('./routes/index');
+var login = require('./routes/login');
+var register = require('./routes/register');
+var dashboard = require('./routes/dashboard');
 var users = require('./routes/users');
 
 var app = express();
+//====================== DB STUFF =============================
+mongoose.connect('mongodb://alpha:omega@ds113785.mlab.com:13785/dnddb');
+var DBmodels = require('./DBModels/DBmodels.js');
+
+
+//==============================================================
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
-
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
@@ -21,9 +32,21 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(session({
+    name: 'server-session-cookie-id',
+    secret: 'fdasklkjlh',
+    saveUninitialized: true,
+    resave: true,
+    // store: new FileStore()
+}));
+
+
 
 app.use('/', index);
+app.use('/dashboard', dashboard);
 app.use('/users', users);
+app.use('/login', login);
+app.use('/register', register);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
