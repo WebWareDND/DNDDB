@@ -13,13 +13,14 @@ var login = require('./routes/login');
 var register = require('./routes/register');
 var dashboard = require('./routes/dashboard');
 var users = require('./routes/users');
+var charinput = require('./routes/charinput');
+var fullcharedit = require('./routes/fullcharedit');
+var logout = require('./routes/logout');
 
 var app = express();
 //====================== DB STUFF =============================
 mongoose.connect('mongodb://alpha:omega@ds113785.mlab.com:13785/dnddb');
 var DBmodels = require('./DBModels/DBmodels.js');
-
-
 //==============================================================
 
 // view engine setup
@@ -47,6 +48,9 @@ app.use('/dashboard', dashboard);
 app.use('/users', users);
 app.use('/login', login);
 app.use('/register', register);
+app.use('/charinput', charinput);
+app.use('/fullcharedit', fullcharedit);
+app.use('/logout', logout);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

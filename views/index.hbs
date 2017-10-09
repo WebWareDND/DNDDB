@@ -1,1 +1,21 @@
-index
+<h2>Your Characters</h2>
+{{#each ownedChars}}
+    <div><a href="/fullcharedit?charID={{_id}}"><button class="glyphicon glyphicon-pencil"></button></a><span>{{name}}</span></div>
+{{/each}}
+<h2>Adventures You're In</h2>
+{{#each ownedInvitations}}
+    <div>{{party}}</div>
+{{/each}}
+<h2>Your Adventures</h2>
+<!--TODO: list the names of parties you re invited to, not ID's-->
+{{#each ownedParties}}
+    <form method="post" action="sendinvite">
+        <div><span>{{name}}</span><input name="partyID" value="{{_id}}" style="display: none"><input placeholder="Account Name" name="invitedname"><button type="submit">Send Invite</button></div>
+    </form>
+{{/each}}
+<div>
+    <form method="post" action="/newadventure">
+        <input placeholder="Adventure Name" name="adventurename">
+        <button>New Adventure</button>
+    </form>
+</div>

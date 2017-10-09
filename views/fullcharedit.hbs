@@ -1,0 +1,10 @@
+
+<form method="post" action="/fullcharedit/editedchar">
+    <input value="{{charToEdit.name}}" name="name">
+    <input value="{{charToEdit.strength}}" name="strength">
+    <input value="{{charToEdit.wisdom}}" name="wisdom">
+    <input value="{{charToEdit.hp}}" name="hp">
+    <input style="display: none" name="_id" value="{{charToEdit._id}}">
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</form>

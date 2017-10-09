@@ -9,14 +9,14 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/login', function(req, res, next){
-  console.log("got login " + req.body.username + req.body.password)
-
     DBmodels.account.findOne({username:req.body.username, password:req.body.password},function (err,targetAccount) {
     try {
         req.session.username = req.body.username
+        req.session.userID = targetAccount._id;
         res.redirect('/')
     } catch (err){
       console.log(err);
+      res.render('login')
     }
     });
 });
@@ -29,11 +29,7 @@ router.post('/register', function(req, res, next){
     instance.password = req.body.password;
 
     instance.save(function (err) {
-      if(err){
-
-      }else{
           res.redirect('/login');
-      }
     })
 
 });
