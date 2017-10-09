@@ -10,6 +10,13 @@ router.get('/', auth, function(req, res, next) {
   DBmodels.character.find({owner:req.session.userID},function (err,ownedChars) {
       DBmodels.adventure.find({owner:req.session.userID},function (err,ownedParties) {
           DBmodels.invitation.find({player:req.session.userID},function (err,ownedInvitations) {
+              ownedInvitations.forEach(function (t) {
+                  //add party name to invite
+                  //TODO: this statement returns object
+                  t.adventureName = DBmodels.invitation.findOne({_id:t._id}).select('name -_id')
+              })
+
+              //render page
               res.render('index', {ownedChars: ownedChars, ownedParties: ownedParties, ownedInvitations:ownedInvitations});
           });
       })
