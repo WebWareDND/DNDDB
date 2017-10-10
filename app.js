@@ -21,13 +21,23 @@ var app = express();
 //====================== DB STUFF =============================
 mongoose.connect('mongodb://alpha:omega@ds113785.mlab.com:13785/dnddb');
 var DBmodels = require('./DBModels/DBmodels.js');
+// DBmodels.invitation.findOne({},function (err,targetInv) {
+//     DBmodels.adventure.findOne({_id:targetInv.adventure},'name -_id',function (err,targetName) {
+//         try {
+//             console.log("found party name " + targetName.name + " from invite " + targetInv._id);
+//         }catch (err){
+//             console.log(err)
+//         }
+//     })
+// })
+
 //==============================================================
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 // uncomment after placing your favicon in /public
-app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));

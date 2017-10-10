@@ -8,20 +8,50 @@ var DBmodels = require('../DBModels/DBmodels.js');
 router.get('/', auth, function(req, res, next) {
 
   DBmodels.character.find({owner:req.session.userID},function (err,ownedChars) {
-      DBmodels.adventure.find({owner:req.session.userID},function (err,ownedParties) {
-          DBmodels.invitation.find({player:req.session.userID},function (err,ownedInvitations) {
-              ownedInvitations.forEach(function (t) {
-                  //add party name to invite
-                  //TODO: this statement returns object
-                  t.adventureName = DBmodels.invitation.findOne({_id:t._id}).select('name -_id')
-              })
+      DBmodels.adventure.find({owner:req.session.userID},function (err,ownedAdventures) {
+          DBmodels.invitation.find({player:req.session.userID}).populate('adventure').exec(function (err,ownedInvitations){
 
-              //render page
-              res.render('index', {ownedChars: ownedChars, ownedParties: ownedParties, ownedInvitations:ownedInvitations});
+
+              console.log("ownedInvitations :"+ownedInvitations)
+              res.render('index', {ownedChars: ownedChars, ownedAdventures: ownedAdventures,ownedInvitations:ownedInvitations})
+
+              // var itemsProcessed = 0;
+              //
+              //   ownedInvitations.forEach(function (t) {
+              //       DBmodels.adventure.findOne({_id: t.adventure}, 'name -_id', function (err, targetName) {
+              //           console.log("found party name " + targetName.name + " from invite " + t._id);
+              //           t.adventureName = targetName.name
+              //           itemsProcessed++;
+              //           if(itemsProcessed === ownedInvitations.length) {
+              //               callback();
+              //           }
+              //       })
+              //
+              //   })
+
+
+
+
           });
       })
   })
 });
+
+function callback() {
+
+        res.render('index', {ownedChars: ownedChars, ownedAdventures: ownedAdventures,ownedInvitations:ownedInvitations})
+
+}
+function getAdvNamesIntoInvites(invList,onIndex,length) {
+    if(onIndex<length) {
+        DBmodels.adventure.findOne({_id: invList[onIndex].adventure}, 'name -_id', function (err, targetName) {
+            console.log("found party name " + targetName.name + " from invite " + invList[onIndex]._id);
+            t.adventureName = targetName.name
+        })
+    }else {
+
+    }
+}
 
 router.post('/newadventure',auth,function (req,res,next) {
     var instance = new DBmodels.adventure
@@ -46,7 +76,7 @@ router.post('/newadventure',auth,function (req,res,next) {
 
 router.post('/sendinvite',auth,function (req,res,next) {
     var instance = new DBmodels.invitation
-    instance.party = req.body.partyID
+    instance.adventure = req.body.adventureID
     DBmodels.account.findOne({username:req.body.invitedname},function (err,targetAccount) {
         try {
         instance.player = targetAccount._id;

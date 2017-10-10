@@ -4,13 +4,12 @@
     <list default="true" id="1da5a7e3-d64f-4e0a-82dd-0ae2b18e645f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DBModels/DBmodels.js" afterPath="$PROJECT_DIR$/DBModels/DBmodels.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/LICENSE" afterPath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/README.md" afterPath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/index.js" afterPath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/package.json" afterPath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/charinput.js" afterPath="$PROJECT_DIR$/routes/charinput.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/charinput.hbs" afterPath="$PROJECT_DIR$/views/charinput.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/login.js" afterPath="$PROJECT_DIR$/routes/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/login.hbs" afterPath="$PROJECT_DIR$/views/login.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,55 +24,53 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file leaf-file-name="fullcharedit.js" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/routes/fullcharedit.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="357">
+                    <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/routes/index.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="544">
+                    <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/routes/login.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="68">
+                    <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="login.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/login.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-441">
-              <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fullcharedit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/fullcharedit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fullcharedit.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/fullcharedit.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="31" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="31" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#input#10;n#form#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="charinput.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/charinput.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBmodels.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DBModels/DBmodels.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,28 +79,68 @@
       <file leaf-file-name="www" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/www">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-441">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="19">
+              <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="544">
+              <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="advcharedit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/advcharedit.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBmodels.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DBModels/DBmodels.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="charinput.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/charinput.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -119,11 +156,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="charinput.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/charinput.js">
+      <file leaf-file-name="fullcharedit.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/fullcharedit.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="153">
+              <caret line="36" column="7" lean-forward="false" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -147,17 +184,26 @@
       <find>fix</find>
       <find>memes</find>
       <find>meme</find>
+      <find>part</find>
+      <find>targe</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Me\WebstormProjects\DNDDB</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="technicals" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/public/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/views/charAdvInput.hbs" />
         <option value="$PROJECT_DIR$/routes/charAdvEdit.js" />
@@ -174,28 +220,27 @@
         <option value="$PROJECT_DIR$/routes/advcharedit.js" />
         <option value="$PROJECT_DIR$/routes/charinut.js" />
         <option value="$USER_HOME$/A5-AJAX/server.js" />
-        <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/public/stylesheets/loginStyle.css" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/routes/register.js" />
         <option value="$PROJECT_DIR$/views/register.hbs" />
-        <option value="$PROJECT_DIR$/public/javascripts/login.js" />
         <option value="$PROJECT_DIR$/public/javascripts/auth.js" />
         <option value="$PROJECT_DIR$/lib/auth.js" />
-        <option value="$PROJECT_DIR$/views/login.hbs" />
+        <option value="$PROJECT_DIR$/views/charinput.hbs" />
+        <option value="$PROJECT_DIR$/views/fullcharedit.hbs" />
         <option value="$PROJECT_DIR$/views/layout.hbs" />
         <option value="$PROJECT_DIR$/routes/logout.js" />
-        <option value="$PROJECT_DIR$/routes/login.js" />
-        <option value="$PROJECT_DIR$/views/index.hbs" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/public/javascripts/login.js" />
         <option value="$PROJECT_DIR$/routes/fullcharedit.js" />
-        <option value="$PROJECT_DIR$/views/fullcharedit.hbs" />
-        <option value="$PROJECT_DIR$/routes/charinput.js" />
-        <option value="$PROJECT_DIR$/views/charinput.hbs" />
+        <option value="$PROJECT_DIR$/views/login.hbs" />
+        <option value="$PROJECT_DIR$/routes/login.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/bin/www" />
+        <option value="$PROJECT_DIR$/views/index.hbs" />
+        <option value="$PROJECT_DIR$/public/javascripts/index.js" />
         <option value="$PROJECT_DIR$/DBModels/DBmodels.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/charinput.js" />
       </list>
     </option>
   </component>
@@ -209,9 +254,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="793" />
-    <option name="width" value="814" />
-    <option name="height" value="867" />
+    <option name="x" value="-7" />
+    <option name="width" value="1294" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -231,8 +276,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,7 +297,7 @@
               <item name="DNDDB" type="b2602c69:ProjectViewProjectNode" />
               <item name="DNDDB" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DNDDB" type="b2602c69:ProjectViewProjectNode" />
@@ -270,6 +313,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,7 +329,7 @@
       <recent name="C:\Users\Me\WebstormProjects\DNDDB\helpers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Derrek\DNDDB\public" />
+      <recent name="C:\Users\Me\WebstormProjects\DNDDB\public\javascripts" />
       <recent name="C:\Users\Me\WebstormProjects\DNDDB\routes" />
       <recent name="C:\Users\Me\WebstormProjects\DNDDB\DBModels" />
       <recent name="C:\Users\Me\WebstormProjects\DNDDB\views" />
@@ -306,187 +351,18 @@
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
           <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/abbrev/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/abbrev/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ansi-align/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ansi-regex/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/arr-diff/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/array-unique/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/async-each/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/balanced-match/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/binary-extensions/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/boxen/node_modules/camelcase/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/boxen/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/brace-expansion/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/braces/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bson/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/buffer-shims/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/capture-stack-trace/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/license</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chokidar/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/cli-boxes/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/code-point-at/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/color-convert/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/color-name/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/concat-map/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/core-util-is/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/crc/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/create-error-class/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/cross-spawn/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/crypto-random-string/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/deep-extend/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/duplexer/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/duplexer3/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/es6-promise/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/escape-string-regexp/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/event-stream/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/execa/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/expand-brackets/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/expand-range/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/express-session/node_modules/debug/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/express-session/node_modules/utils-merge/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/express-session/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extglob/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/filename-regex/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/fill-range/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/for-in/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/for-own/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/from/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/get-stream/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/glob-base/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/glob-parent/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/got/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/graceful-fs/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/has-flag/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hooks-fixed/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ignore-by-default/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/import-lazy/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/imurmurhash/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ini/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-binary-path/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-dotfile/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-equal-shallow/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-extendable/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-extglob/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-fullwidth-code-point/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-glob/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-npm/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-number/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-obj/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-posix-bracket/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-primitive/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-redirect/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-retry-allowed/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-stream/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/isarray/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/isexe/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/isobject/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/kareem/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/latest-version/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/lodash._baseassign/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/lodash._basecopy/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/lodash._bindcallback/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/lodash._createassigner/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/lodash._getnative/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/lodash._isiterateecall/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/lodash.assign/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/lodash.defaults/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/lodash.isarguments/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/lodash.isarray/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/lodash.keys/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/lodash.restparam/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/lodash/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/lowercase-keys/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/make-dir/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/map-stream/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/micromatch/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb-core/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/es6-promise/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/History.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/document.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/query.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/embedded.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/services/model/applyMethods.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/services/model/discriminator.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/types/array.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/types/subdocument.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/async/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mpath/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mpromise/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mquery/node_modules/debug/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mquery/node_modules/sliced/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mquery/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/muri/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/nodemon/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/nopt/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/normalize-path/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/npm-run-path/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/number-is-nan/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/object.omit/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/p-finally/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/package-json/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/parse-glob/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/path-is-absolute/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/path-key/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/pause-stream/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/pify/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/prepend-http/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/preserve/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/process-nextick-args/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ps-tree/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/pseudomap/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/random-bytes/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/randomatic/node_modules/is-number/node_modules/kind-of/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/randomatic/node_modules/is-number/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/randomatic/node_modules/kind-of/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/rc/node_modules/minimist/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/rc/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/readdirp/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/regexp-clone/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/registry-auth-token/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/registry-url/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/remove-trailing-separator/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/repeat-element/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/require_optional/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/resolve-from/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/semver-diff/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/set-immediate-shim/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/shebang-command/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/shebang-regex/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/signal-exit/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sliced/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/split/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/stream-combiner/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/strip-ansi/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/strip-eof/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/strip-json-comments/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/term-size/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/through/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/timed-out/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uid-safe/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/undefsafe/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/unique-string/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/unzip-response/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/update-notifier/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/update-notifier/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/update-notifier/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/url-parse-lax/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/util-deprecate/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/widest-line/node_modules/ansi-regex/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/widest-line/node_modules/is-fullwidth-code-point/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/widest-line/node_modules/string-width/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/widest-line/node_modules/strip-ansi/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/widest-line/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/xdg-basedir/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/yallist/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/DBModels/DBmodels.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/serve-favicon/HISTORY.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/HISTORY.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/serve-favicon/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/stylesheets/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/routes/charinput.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/routes/fullcharedit.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/charinput.hbs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/fullcharedit.hbs</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -501,153 +377,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/CHANGELOG.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/Gruntfile.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.min.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/dist/js/npm.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/grunt/.jshintrc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/grunt/bs-commonjs-generator.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/grunt/bs-glyphicons-data-generator.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/grunt/bs-lessdoc-parser.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/grunt/bs-raw-files-generator.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/grunt/change-version.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/grunt/configBridge.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/grunt/npm-shrinkwrap.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/grunt/sauce_browsers.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/js/affix.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/js/alert.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/js/button.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/js/carousel.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/js/collapse.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/js/dropdown.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/js/modal.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/js/popover.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/js/scrollspy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/js/tab.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/js/tooltip.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/js/transition.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/alerts.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/badges.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/bootstrap.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/breadcrumbs.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/button-groups.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/buttons.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/carousel.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/close.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/code.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/component-animations.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/dropdowns.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/forms.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/glyphicons.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/grid.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/input-groups.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/jumbotron.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/labels.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/list-group.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/media.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/alerts.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/background-variant.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/border-radius.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/buttons.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/center-block.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/clearfix.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/forms.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/gradients.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/grid-framework.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/grid.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/hide-text.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/image.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/labels.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/list-group.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/nav-divider.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/nav-vertical-align.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/opacity.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/pagination.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/panels.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/progress-bar.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/reset-filter.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/reset-text.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/resize.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/responsive-visibility.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/size.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/tab-focus.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/table-row.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/text-emphasis.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/text-overflow.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/mixins/vendor-prefixes.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/modals.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/navbar.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/navs.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/normalize.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/pager.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/pagination.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/panels.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/popovers.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/print.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/progress-bars.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/responsive-embed.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/responsive-utilities.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/scaffolding.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/tables.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/theme.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/thumbnails.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/tooltip.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/type.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/utilities.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/variables.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/less/wells.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bootstrap/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/boxen/node_modules/chalk/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/boxen/node_modules/chalk/license</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/boxen/node_modules/chalk/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/boxen/node_modules/chalk/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/boxen/node_modules/chalk/templates.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/node_modules/ansi-regex/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/node_modules/ansi-regex/license</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/node_modules/ansi-regex/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/node_modules/ansi-regex/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/node_modules/ansi-styles/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/node_modules/ansi-styles/license</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/node_modules/ansi-styles/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/node_modules/ansi-styles/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/node_modules/strip-ansi/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/node_modules/strip-ansi/license</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/node_modules/strip-ansi/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/node_modules/strip-ansi/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/node_modules/supports-color/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/node_modules/supports-color/license</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/node_modules/supports-color/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/chalk/node_modules/supports-color/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/has-ansi/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/has-ansi/license</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/has-ansi/node_modules/ansi-regex/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/has-ansi/node_modules/ansi-regex/license</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/has-ansi/node_modules/ansi-regex/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/has-ansi/node_modules/ansi-regex/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/has-ansi/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/has-ansi/readme.md</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -771,6 +500,7 @@
       <workItem from="1507481765941" duration="14000" />
       <workItem from="1507481797152" duration="24066000" />
       <workItem from="1507565263422" duration="755000" />
+      <workItem from="1507643055517" duration="3905000" />
     </task>
     <task id="LOCAL-00001" summary="Webstorm Init">
       <created>1506024649718</created>
@@ -793,68 +523,36 @@
       <option name="project" value="LOCAL" />
       <updated>1506055838080</updated>
     </task>
-    <task id="LOCAL-00004" summary="Updated the character forms.   Need to find a way to access preferred attacking/spell casting stats once selected">
-      <created>1507611911894</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1507611911894</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60354000" />
+    <option name="totallyTimeSpent" value="61238000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12294043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26995304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29054055" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31163287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31174535" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31174535" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -864,8 +562,7 @@
     <MESSAGE value="Added Google Login, Bootstrap, Other Pages" />
     <MESSAGE value="Removed A Bad I" />
     <MESSAGE value="User Accounts, Login (unsecure)" />
-    <MESSAGE value="Updated the character forms.   Need to find a way to access preferred attacking/spell casting stats once selected" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the character forms.   Need to find a way to access preferred attacking/spell casting stats once selected" />
+    <option name="LAST_COMMIT_MESSAGE" value="User Accounts, Login (unsecure)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -967,6 +664,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/charAdvEdit.js" />
     <entry file="file://$PROJECT_DIR$/routes/charFullEdit.js" />
     <entry file="file://$PROJECT_DIR$/views/charFullEdit.hbs" />
@@ -980,10 +684,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/charinput.js" />
     <entry file="file://$PROJECT_DIR$/views/charAdvEdit.hbs" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/error.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/dashboard.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/advcharedit.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/advcharedit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1029,20 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/register.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1050,55 +768,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/views/charinput.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/login.js">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1111,92 +799,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/charinput.js">
+    <entry file="file://$PROJECT_DIR$/routes/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/fullcharedit.js">
+    <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        <state relative-caret-position="19">
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/fullcharedit.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="31" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="31" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#input#10;n#form#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state relative-caret-position="153">
+          <caret line="36" column="7" lean-forward="false" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="306">
+          <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/advcharedit.js">
+    <entry file="file://$PROJECT_DIR$/views/login.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/advcharedit.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/dashboard.hbs">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441">
-          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/charinput.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DBModels/DBmodels.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="238">
+          <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/fullcharedit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/charinput.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
           <folding />
         </state>
       </provider>

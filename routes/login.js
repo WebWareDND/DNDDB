@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var DBmodels = require('../DBModels/DBmodels.js');
+var mongoose = require('mongoose');
+
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -27,6 +29,8 @@ router.post('/register', function(req, res, next){
     var instance = new DBmodels.account
     instance.username = req.body.username;
     instance.password = req.body.password;
+    instance._id = new mongoose.Types.ObjectId();
+
 
     instance.save(function (err) {
           res.redirect('/login');
