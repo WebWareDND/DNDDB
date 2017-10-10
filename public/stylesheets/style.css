@@ -12,3 +12,25 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
+.statDisplay{
+  border-style: solid;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.tooltip{
+  position: relative;
+  display: inline-block;
+}
+.tooltipText {
+  visibility: hidden;
+  height: auto;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+}
+/*Change visibility when you scroll over a stat*/
+.tooltip:hover .tooltipText{
+  visibility: visible;
+}

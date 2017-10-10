@@ -20,9 +20,17 @@ router.post('/editedchar',auth,function (req,res,next) {
     DBmodels.character.findOne({_id: req.body._id},function (err,targetChar) {
         try{
             targetChar.name = req.body.name
-            targetChar.strength = req.body.strength
-            targetChar.wisdom = req.body.wisdom
             targetChar.hp = req.body.hp
+            targetChar.race = req.body.race
+            targetChar.level = req.body.level
+
+            targetChar.strength = req.body.strength
+            targetChar.dexterity = req.body.dexterity
+            targetChar.constitution = req.body.constitution
+            targetChar.intelligence = req.body.intelligence
+            targetChar.wisdom = req.body.wisdom
+            targetChar.charisma = req.body.charisma
+
             targetChar.save(function (err) {
                 if(err){
                     print(err);
