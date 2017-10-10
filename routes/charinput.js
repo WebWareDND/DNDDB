@@ -10,11 +10,17 @@ router.get('/', auth, function(req, res, next) {
 
 router.post('/newchar',auth,function (req,res,next) {
   var instance = new DBmodels.character;
-  instance.name = req.body.name
-  instance.strength = req.body.strength
-  instance.wisdom = req.body.wisdom
-  instance.hp = req.body.hp
-  instance.owner = req.session.userID;
+    targetChar.name = req.body.name
+    targetChar.hp = req.body.hp
+    targetChar.race = req.body.race
+    targetChar.level = req.body.level
+
+    targetChar.strength = req.body.strength
+    targetChar.dexterity = req.body.dexterity
+    targetChar.constitution = req.body.constitution
+    targetChar.intelligence = req.body.intelligence
+    targetChar.wisdom = req.body.wisdom
+    targetChar.charisma = req.body.charisma
 
     instance.save(function (err) {
         if(err){

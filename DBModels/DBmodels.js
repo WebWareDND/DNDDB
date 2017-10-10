@@ -9,10 +9,18 @@ account = new Schema({
 });
 
 character = new Schema({
-    name: { type: String },
-    wisdom: { type: String },
-    strength: { type: String },
     hp: { type: String},
+    race: {type: String},
+    name: { type: String },
+    level: { type: String},
+
+    strength: { type: String },
+    dexterity: { type: String },
+    constitution: { type: String},
+    intelligence: { type: String},
+    wisdom: { type: String },
+    charisma: { type: String },
+
     owner : {type : String}
 });
 
