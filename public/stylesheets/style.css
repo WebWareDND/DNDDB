@@ -34,3 +34,15 @@ a {
 .tooltip:hover .tooltipText{
   visibility: visible;
 }
+/*For the Two Column Format*/
+.column{
+    float: left;
+    width: 50%;
+    padding: 25px;
+}
+/*When you want to use columns, contain them with this*/
+row:after{
+    content: "";
+    display: table;
+    clear: both;
+}

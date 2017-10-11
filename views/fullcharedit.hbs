@@ -1,37 +1,118 @@
+<div class="row">
+    <form method="post" action="/fullcharedit/editedchar">
+        <div class="column"><h2>Character Details</h2>
+        <!--Character details -->
+        <input placeholder="Character Name" value="{{charToEdit.name}}" name="name">
+        <input placeholder="Character Race" value="{{charToEdit.race}}" name="race">
+        <input placeholder="Character Level" value="{{charToEdit.level}}" name="level">
+        <input placeholder="Hit Points" value="{{charToEdit.hp}}" name="hp"> <br>
 
-<form method="post" action="/fullcharedit/editedchar">
-    <!--Character details -->
-    <input placeholder="Character Name" value="{{charToEdit.name}}" name="name">
-    <input placeholder="Character Race" value="{{charToEdit.race}}" name="race">
-    <input placeholder="Character Level" value="{{charToEdit.level}}" name="level">
-    <input placeholder="Hit Points" value="{{charToEdit.hp}}" name="hp"> <br>
+        <!--Core Stats -->
+        <span class="statDisplay"> STR </span><input placeholder="Strength Score" value="{{charToEdit.strength}}" name="strength"> <br>
+        <span class="statDisplay"> DEX </span><input placeholder="Dexterity Score" value="{{charToEdit.dexterity}}" name="dexterity"> <br>
+        <span class="statDisplay"> CON </span><input placeholder="Constitution Score" value="{{charToEdit.constitution}}" name="constitution"> <br>
+        <span class="statDisplay"> INT </span><input placeholder="Intelligence Score" value="{{charToEdit.intelligence}}" name="intelligence"> <br>
+        <span class="statDisplay"> WIS </span><input placeholder="Wisdom Score" value="{{charToEdit.wisdom}}" name="wisdom"> <br>
+        <span class="statDisplay"> CHA </span><input placeholder="Charisma Score" value="{{charToEdit.charisma}}" name="charisma"> <br>
 
-    <!--Core Stats -->
-    <span class="statDisplay"> STR </span><input placeholder="Strength Score" value="{{charToEdit.strength}}" name="strength"> <br>
-    <span class="statDisplay"> DEX </span><input placeholder="Dexterity Score" value="{{charToEdit.dexterity}}" name="dexterity"> <br>
-    <span class="statDisplay"> CON </span><input placeholder="Constitution Score" value="{{charToEdit.constitution}}" name="constitution"> <br>
-    <span class="statDisplay"> INT </span><input placeholder="Intelligence Score" value="{{charToEdit.intelligence}}" name="intelligence"> <br>
-    <span class="statDisplay"> WIS </span><input placeholder="Wisdom Score" value="{{charToEdit.wisdom}}" name="wisdom"> <br>
-    <span class="statDisplay"> CHA </span><input placeholder="Charisma Score" value="{{charToEdit.charisma}}" name="charisma"> <br>
+        <!--Attack Types -->
+        <div>Preferred Attacking Stat <br>
+            <select name="atkPref">
+                <option value="STR">Strength</option>
+                <option value="DEX">Dexterity</option>
+            </select>
+        </div>
+        <!--Spellcaster Types -->
+        <div>Spellcasting Stat <br>
+            <select name="spellPref">
+                <option value="NA">None</option>
+                <option value="INT">Intelligence</option>
+                <option value="WIS">Wisdom</option>
+                <option value="CHA">Charisma</option>
+            </select>
+        </div>
 
-    <!--Attack Types -->
-    <div>Preferred Attacking Stat <br>
-        <select name="atkPref">
-            <option value="STR">Strength</option>
-            <option value="DEX">Dexterity</option>
-        </select>
+        <input style="display: none" name="_id" value="{{charToEdit._id}}">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
     </div>
-    <!--Spellcaster Types -->
-    <div>Spellcasting Stat <br>
-        <select name="spellPref">
-            <option value="NA">None</option>
-            <option value="INT">Intelligence</option>
-            <option value="WIS">Wisdom</option>
-            <option value="CHA">Charisma</option>
-        </select>
-    </div>
 
-    <input style="display: none" name="_id" value="{{charToEdit._id}}">
-    <button type="submit">Submit</button>
-    <button type="reset">Reset</button>
-</form>
+    <div class="column"></div><h2>Skill Proficiencies</h2>
+        <fieldset>
+            <legend>What is your character proficient at?</legend>
+            <div>
+                <input type="checkbox" name="skills" value="athletics">
+                <label for="athletics">Athletics (STR)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="acrobatics">
+                <label for="acrobatics">Acrobatics (DEX)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="sleightOfHand">
+                <label for="sleightOfHand">Sleight of Hand (DEX)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="stealth">
+                <label for="stealth">Stealth (DEX)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="arcana">
+                <label for="arcana"> Knowledge of Arcana (INT)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="history">
+                <label for="history">Knowledge of History (INT)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="investigation">
+                <label for="investigation">Investigation (INT)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="nature">
+                <label for="nature">Knowledge of Nature (INT)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="religion">
+                <label for="religion">Knowledge of Religion (INT)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="animalsHandling">
+                <label for="animalHandling">Animal Handling (WIS)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="insight">
+                <label for="insight">Insight (WIS)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="medicine">
+                <label for="medicine">Medicine (WIS)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="perception">
+                <label for="perception">Perception (WIS)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="survival">
+                <label for="survival">Survival (WIS)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="deception">
+                <label for="deception">Deception (CHA)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="intimidation">
+                <label for="intimidation">Intimidation (CHA)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="performance">
+                <label for="performance">Performance (CHA)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skills" value="persuasion">
+                <label for="persuasion">Persuasion (CHA)</label>
+            </div>
+        </fieldset>
+    </form>
+
+</div>
