@@ -9,7 +9,7 @@ router.get('/', auth, function(req, res, next) {
 
   DBmodels.character.find({owner:req.session.userID},function (err,ownedChars) {
       DBmodels.adventure.find({owner:req.session.userID},function (err,ownedAdventures) {
-          DBmodels.invitation.find({player:req.session.userID}).populate('adventure').exec(function (err,ownedInvitations){
+          DBmodels.invitation.find({player:req.session.userID}).populate('adventure').populate('character').exec(function (err,ownedInvitations){
 
 
               res.render('index', {ownedChars: ownedChars, ownedAdventures: ownedAdventures,ownedInvitations:ownedInvitations})

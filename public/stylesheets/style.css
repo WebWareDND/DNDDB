@@ -1,6 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: #3c763d;
 }
 
 a {
@@ -59,4 +60,8 @@ row:after{
     margin: auto;
     text-align: center;
     width: 50%
+}
+
+.marginBox{
+    margin: 10px;
 }

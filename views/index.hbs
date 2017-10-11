@@ -1,42 +1,68 @@
-<h2>Your Characters</h2>
-{{#each ownedChars}}
-    <div><a href="/fullcharedit?charID={{_id}}"><button class="glyphicon glyphicon-pencil"></button></a><span>{{name}}</span></div>
-{{/each}}
+<div class="panel panel-default">
+    <div class="panel-heading">Your Characters</div>
+    <div class="panel-body">
+        {{#each ownedChars}}
+            <div class="panel panel-default" style="margin:17px 0 19px 0;">
+                <div class="panel-body"><span>{{name}}  </span><a href="/fullcharedit?charID={{_id}}"><button class="glyphicon glyphicon-pencil"></button></a></div>
 
-<h2>Adventures You're In</h2>
-
-
-{{#each ownedInvitations}}
-    <div>
-    Adventure: {{adventure.name}}. Your Character: {{character}}.
-        <form method="post" action="/electchar">
-            <select name ="invCharID" onchange="this.form.submit()" >
-                <option  value=''>Pick Char</option>
-
-                {{#each ../ownedChars}}
-                <option  value='{{../_id}},{{_id}}'>{{name}}</option>
-            {{/each}}
-            </select>
-        </form>
+            </div>
+        {{/each}}
     </div>
-{{/each}}
-<h2>Your Adventures</h2>
-{{#each ownedAdventures}}
-    <div>
-    <a href="/gmscreen?advID={{_id}}"><button class="glyphicon glyphicon-home"></button></a>
-    <span>{{name}}</span>
-
-    <form method="post" action="sendinvite">
-
-            <input name="adventureID" value="{{_id}}" style="display: none"><input placeholder="Account Name" name="invitedname"><button type="submit">Send Invite</button>
-    </form>
-    </div>
-{{/each}}
-<div>
-    <form method="post" action="/newadventure">
-        <input placeholder="Adventure Name" name="adventurename">
-        <button>New Adventure</button>
-    </form>
 </div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">Adventures You're In</div>
+    <div class="panel-body">
+        {{#each ownedInvitations}}
+            <div class="panel panel-default" style="margin:17px 0 19px 0;">
+                <div class="panel-body">
+                Adventure: {{adventure.name}}. Your Character: {{character.name}}.
+                <form method="post" action="/electchar">
+                    <select name ="invCharID" onchange="this.form.submit()" >
+                        <option  value=''>Pick Char</option>
+
+                        {{#each ../ownedChars}}
+                            <option  value='{{../_id}},{{_id}}'>{{name}}</option>
+                        {{/each}}
+                    </select>
+                </form>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">Your Adventures</div>
+    <div class="panel-body">
+        {{#each ownedAdventures}}
+            <div class="panel panel-default" style="margin:17px 0 19px 0;">
+                <div class="panel-body">
+                    <a href="/gmscreen?advID={{_id}}">
+                        <button class="glyphicon glyphicon-home"></button>
+                    </a>
+                    <span>{{name}}</span>
+
+                    <form method="post" action="sendinvite">
+
+                    <input name="adventureID" value="{{_id}}" style="display: none">
+                        <input placeholder="Account Name" name="invitedname">
+                        <button type="submit">Send Invite</button>
+                </form>
+                </div>
+            </div>
+        {{/each}}
+
+        <div>
+            <form method="post" action="/newadventure">
+                <input placeholder="Adventure Name" name="adventurename">
+                <button>New Adventure</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
 
 <script src="/javascripts/index.js"></script>
