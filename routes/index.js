@@ -74,6 +74,27 @@ router.post('/newadventure',auth,function (req,res,next) {
 
 })
 
+router.post('/electchar',auth,function (req,res,next) {
+
+    console.log("got inv ID " + req.body.invCharID)
+
+    //ids has the inv id in [0] and the char id in [1]
+    var ids = req.body.invCharID.split(',');
+
+    DBmodels.invitation.findOne({_id:ids[0]},function (err,targetInv) {
+        try {
+            targetInv.character = ids[1];
+            targetInv.save(function (err) {
+                res.redirect('/')
+            })
+        }catch (err){
+            console.log(err)
+            res.redirect('/')
+
+        }
+    })
+})
+
 router.post('/sendinvite',auth,function (req,res,next) {
     var instance = new DBmodels.invitation
     instance.adventure = req.body.adventureID

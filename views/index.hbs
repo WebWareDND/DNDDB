@@ -8,16 +8,20 @@
 
 {{#each ownedInvitations}}
     <div>
-    {{adventure.name}}
-    <select>
-        {{#each ../ownedChars}}
-            <option value="{{_id}}">{{name}}</option>
-        {{/each}}
-    </select>
+    Adventure: {{adventure.name}}. Your Character: {{character}}.
+        <form method="post" action="/electchar">
+            <select name ="invCharID" onchange="this.form.submit()" >
+                <option  value=''>Pick Char</option>
+
+                {{#each ../ownedChars}}
+                <!--TODO: get options bar to post on change-->
+                <option  value='{{../_id}},{{_id}}'>{{name}}</option>
+            {{/each}}
+            </select>
+        </form>
     </div>
 {{/each}}
 <h2>Your Adventures</h2>
-<!--TODO: list the names of parties you re invited to, not ID's-->
 {{#each ownedAdventures}}
     <form method="post" action="sendinvite">
         <div><span>{{name}}</span><input name="adventureID" value="{{_id}}" style="display: none"><input placeholder="Account Name" name="invitedname"><button type="submit">Send Invite</button></div>

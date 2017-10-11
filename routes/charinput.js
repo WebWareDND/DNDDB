@@ -9,6 +9,7 @@ router.get('/', auth, function(req, res, next) {
 });
 
 router.post('/newchar',auth,function (req,res,next) {
+
   var instance = new DBmodels.character;
     instance.name = req.body.name
     instance.hp = req.body.hp
