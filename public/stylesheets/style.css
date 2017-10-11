@@ -46,3 +46,10 @@ row:after{
     display: table;
     clear: both;
 }
+
+.textBox{
+    background-color: white;
+    border-radius: 10px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    width: 375px;
+}
