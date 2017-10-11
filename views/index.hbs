@@ -22,9 +22,15 @@
 {{/each}}
 <h2>Your Adventures</h2>
 {{#each ownedAdventures}}
+    <div>
+    <a href="/gmscreen?advID={{_id}}"><button class="glyphicon glyphicon-home"></button></a>
+    <span>{{name}}</span>
+
     <form method="post" action="sendinvite">
-        <div><span>{{name}}</span><input name="adventureID" value="{{_id}}" style="display: none"><input placeholder="Account Name" name="invitedname"><button type="submit">Send Invite</button></div>
+
+            <input name="adventureID" value="{{_id}}" style="display: none"><input placeholder="Account Name" name="invitedname"><button type="submit">Send Invite</button>
     </form>
+    </div>
 {{/each}}
 <div>
     <form method="post" action="/newadventure">

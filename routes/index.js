@@ -12,7 +12,6 @@ router.get('/', auth, function(req, res, next) {
           DBmodels.invitation.find({player:req.session.userID}).populate('adventure').exec(function (err,ownedInvitations){
 
 
-              console.log("ownedInvitations :"+ownedInvitations)
               res.render('index', {ownedChars: ownedChars, ownedAdventures: ownedAdventures,ownedInvitations:ownedInvitations})
 
               // var itemsProcessed = 0;
@@ -45,7 +44,6 @@ function callback() {
 function getAdvNamesIntoInvites(invList,onIndex,length) {
     if(onIndex<length) {
         DBmodels.adventure.findOne({_id: invList[onIndex].adventure}, 'name -_id', function (err, targetName) {
-            console.log("found party name " + targetName.name + " from invite " + invList[onIndex]._id);
             t.adventureName = targetName.name
         })
     }else {
