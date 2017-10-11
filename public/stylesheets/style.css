@@ -48,8 +48,15 @@ row:after{
 }
 
 .textBox{
+    margin: auto;
+    text-align: center;
     background-color: white;
     border-radius: 10px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    width: 375px;
+    width: 50%;
+}
+.center{
+    margin: auto;
+    text-align: center;
+    width: 50%
 }
