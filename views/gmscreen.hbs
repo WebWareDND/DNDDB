@@ -1,0 +1,59 @@
+<div class="panel panel-default" xmlns="http://www.w3.org/1999/html">
+    <div class="panel-body"><h1>{{adventure.name}}</h1></div>
+</div>
+
+{{#each invChars}}
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3>{{character.name}}</h3></div>
+        <div class="panel-body">
+            Hp: <kbd><span class="hpSpan">{{character.hp}}</span></kbd>
+           Wisdom:  <kbd><span class="wisSpan">{{character.wisdom}}</span></kbd>
+        </div>
+
+    </div>
+
+{{/each}}
+
+<!--<script src="/javascripts/gmscreenScripts.js"></script>-->
+<script>
+    setInterval(function() {
+
+        var xmlhttp = new XMLHttpRequest();
+
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == XMLHttpRequest.DONE ) {
+                if (xmlhttp.status == 200) {
+
+
+                    responseObj = JSON.parse(xmlhttp.response)
+                    console.log(responseObj)
+
+
+                    charViews = document.getElementsByClassName("hpSpan")
+                    charViewsArray = Array.prototype.slice.call(charViews);
+                    charViewsArray.forEach(function (t,i) {
+                        t.innerHTML = responseObj[i].character.hp;
+                    })
+
+                    charViews = document.getElementsByClassName("wisSpan")
+                    charViewsArray = Array.prototype.slice.call(charViews);
+                    charViewsArray.forEach(function (t,i) {
+                        t.innerHTML = responseObj[i].character.wisdom;
+                    })
+                }
+
+            }
+        };
+        xmlhttp.open("POST", "/gmscreen/refresh", true);
+        xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+        xmlhttp.send('advID='+'{{adventure._id}}');
+    }, 1500);
+
+
+    function charToHTML(character) {
+        return ("<h3> "+character.name+"</h3>"+
+        "<p>Hp: " +character.hp+"</p>")
+    }
+
+</script>
