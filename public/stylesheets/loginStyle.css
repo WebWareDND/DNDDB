@@ -89,12 +89,5 @@
     color: #EF3B3A;
 }
 body {
-    background: #ec2127; /* fallback for old browsers */
-    background: -webkit-linear-gradient(right, #ec2127, #e5380a);
-    background: -moz-linear-gradient(right, #ec2127, #e5380a);
-    background: -o-linear-gradient(right, #ec2127, #e5380a);
-    background: linear-gradient(to left, #ec2127, #e5380a);
-    font-family: "Roboto", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+
 }
