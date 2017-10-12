@@ -17,6 +17,7 @@ var charinput = require('./routes/charinput');
 var gmscreen = require('./routes/gmscreen');
 var fullcharedit = require('./routes/fullcharedit');
 var logout = require('./routes/logout');
+var truelogin = require('./routes/truelogin');
 
 var app = express();
 //====================== DB STUFF =============================
@@ -64,6 +65,7 @@ app.use('/gmscreen', gmscreen);
 app.use('/charinput', charinput);
 app.use('/fullcharedit', fullcharedit);
 app.use('/logout', logout);
+app.use('/truelogin', truelogin);
 
 
 // catch 404 and forward to error handler
