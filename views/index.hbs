@@ -1,62 +1,88 @@
 <div class="panel panel-default">
-    <div class="panel-heading">Your Characters</div>
+    <div class="panel-heading"><h2>Your Characters</h2></div>
     <div class="panel-body">
         {{#each ownedChars}}
             <div class="panel panel-default" style="margin:17px 0 19px 0;">
-                <div class="panel-body"><span>{{name}}  </span><a href="/fullcharedit?charID={{_id}}"><button class="glyphicon glyphicon-pencil"></button></a></div>
+                <div class="panel-body">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><h3>{{name}}</h3></li>
+                        <li class="list-inline-item"><a href="/fullcharedit?charID={{_id}}"><button class="glyphicon glyphicon-pencil"></button></a></li>
+                    </ul>
+                </div>
 
             </div>
+
         {{/each}}
+
+        <a href="/charinput"><button class="btn" >New Character</button></a>
     </div>
+
 </div>
 
 <div class="panel panel-default">
-    <div class="panel-heading">Adventures You're In</div>
+    <div class="panel-heading"><h2>Adventures You're In</h2></div>
     <div class="panel-body">
         {{#each ownedInvitations}}
+
             <div class="panel panel-default" style="margin:17px 0 19px 0;">
                 <div class="panel-body">
-                Adventure: {{adventure.name}}. Your Character: {{character.name}}.
-                <form method="post" action="/electchar">
-                    <select name ="invCharID" onchange="this.form.submit()" >
-                        <option  value=''>Pick Char</option>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><h3>{{adventure.name}}</h3></li>
+                        <li class="list-inline-item">Your Character: <kbd>{{character.name}}</kbd></li>
+                        <li class="list-inline-item">
+                            <form method="post" action="/electchar">
+                            <select name ="invCharID" onchange="this.form.submit()" >
+                                <option  value=''>Pick Char</option>
 
-                        {{#each ../ownedChars}}
-                            <option  value='{{../_id}},{{_id}}'>{{name}}</option>
-                        {{/each}}
-                    </select>
-                </form>
+                                {{#each ../ownedChars}}
+                                    <option  value='{{../_id}},{{_id}}'>{{name}}</option>
+                                {{/each}}
+
+                            </select>
+                            </form>
+                        </li>
+                    </ul>
                 </div>
+
             </div>
+
         {{/each}}
     </div>
 </div>
 
 <div class="panel panel-default">
-    <div class="panel-heading">Your Adventures</div>
+    <div class="panel-heading"><h2>Your Adventures</h2></div>
     <div class="panel-body">
         {{#each ownedAdventures}}
+
             <div class="panel panel-default" style="margin:17px 0 19px 0;">
                 <div class="panel-body">
-                    <a href="/gmscreen?advID={{_id}}">
-                        <button class="glyphicon glyphicon-home"></button>
-                    </a>
-                    <span>{{name}}</span>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><h3>{{name}}</h3></li>
+                        <li class="list-inline-item">
+                            <a class="glyphicon glyphicon-home" href="/gmscreen?advID={{_id}}">
+                        </a>
+                        </li>
+                        <form method="post" action="sendinvite">
 
-                    <form method="post" action="sendinvite">
-
-                    <input name="adventureID" value="{{_id}}" style="display: none">
-                        <input placeholder="Account Name" name="invitedname">
-                        <button type="submit">Send Invite</button>
-                </form>
+                        <li class="list-inline-item"><button class="btn" type="submit">Send Invite</button></li>
+                        <li class="list-inline-item"><input name="adventureID" value="{{_id}}" style="display: none"><input placeholder="Account Name" name="invitedname"></li>
+                        </form>
+                    </ul>
                 </div>
+
             </div>
+
+
+
         {{/each}}
+
 
         <div>
             <form method="post" action="/newadventure">
+                <button class="btn">New Adventure</button>
+
                 <input placeholder="Adventure Name" name="adventurename">
-                <button>New Adventure</button>
             </form>
         </div>
     </div>

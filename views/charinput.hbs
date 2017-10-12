@@ -1,34 +1,62 @@
-<form method="post" action="/charinput/newchar">
-    <!--Character details -->
-    <input placeholder="Character Name" value="{{charToEdit.name}}" name="name">
-    <input placeholder="Character Race" value="{{charToEdit.race}}" name="race">
-    <input placeholder="Character Level" value="{{charToEdit.level}}" name="level">
-    <input placeholder="Hit Points" value="{{charToEdit.hp}}" name="hp"> <br>
-
-    <!--Core Stats -->
-    <span class="statDisplay"> STR </span><input placeholder="Strength Score" value="{{charToEdit.strength}}" name="strength"> <br>
-    <span class="statDisplay"> DEX </span><input placeholder="Dexterity Score" value="{{charToEdit.dexterity}}" name="dexterity"> <br>
-    <span class="statDisplay"> CON </span><input placeholder="Constitution Score" value="{{charToEdit.constitution}}" name="constitution"> <br>
-    <span class="statDisplay"> INT </span><input placeholder="Intelligence Score" value="{{charToEdit.intelligence}}" name="intelligence"> <br>
-    <span class="statDisplay"> WIS </span><input placeholder="Wisdom Score" value="{{charToEdit.wisdom}}" name="wisdom"> <br>
-    <span class="statDisplay"> CHA </span><input placeholder="Charisma Score" value="{{charToEdit.charisma}}" name="charisma"> <br>
-
-    <!--Attack Types -->
-    <div>Preferred Attacking Stat <br>
-        <select name="atkPref">
-            <option value="STR">Strength</option>
-            <option value="DEX">Dexterity</option>
-        </select>
+<form class="form-inline" method="post" action="/charinput/newchar">
+    <div class="panel panel-default container">
+        <div class="panel-heading">Description</div>
+        <div class="panel-body">
+            <div class="form-group m-3">
+                <span>Character Name:</span>
+                <input class="form-control"  name="name">
+            </div>
+            <div class="form-group m-3">
+                <span>Race:</span>
+                <input class="form-control" name="race">
+            </div>
+            <div class="form-group m-3">
+                <span>Level:</span>
+                <input class="form-control"  name="level">
+            </div>
+            <div class="form-group m-3">
+                <span>Health Points:</span>
+                <input class="form-control"  name="hp">
+            </div>
+        </div>
     </div>
-    <!--Spellcaster Types -->
-    <div>Spellcasting Stat <br>
-        <select name="spellPref">
-            <option value="NA">None</option>
-            <option value="INT">Intelligence</option>
-            <option value="WIS">Wisdom</option>
-            <option value="CHA">Charisma</option>
-        </select>
+
+    <div class="panel panel-default container">
+        <div class="panel-heading">Attributes</div>
+        <div class="panel-body">
+            <div class="form-group m-3">
+                <span>Strength:</span>
+                <input class="form-control"  name="strength">
+            </div>
+            <div class="form-group m-3">
+                <span>Dexterity:</span>
+                <input class="form-control"  name="dexterity">
+            </div>
+            <div class="form-group m-3">
+                <span>Constitution:</span>
+                <input class="form-control"  name="constitution">
+            </div>
+            <div class="form-group m-3">
+                <span>Intelligence:</span>
+                <input class="form-control"  name="intelligence">
+            </div>
+            <div class="form-group m-3">
+                <span>Wisdom:</span>
+                <input class="form-control"  name="wisdom">
+            </div>
+            <div class="form-group m-3">
+                <span>Charisma:</span>
+                <input class="form-control"  name="charisma">
+            </div>
+        </div>
     </div>
-    <button type="submit">Submit</button>
-    <button type="reset">Reset</button>
+
+    <div class="panel panel-default container">
+        <div class="panel-body">
+            <button type="submit" class="btn btn-success">Submit</button>
+            <button type="reset" class="btn btn-danger">Reset</button>
+        </div>
+    </div>
 </form>
+
+
